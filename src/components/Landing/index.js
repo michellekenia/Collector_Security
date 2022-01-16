@@ -3,24 +3,19 @@ import { Form, FormGroup, Label, Input, Button} from "reactstrap";
 import Header from "../Header";
 
 // eslint-disable-next-line no-undef
-export default class Login extends Component {
+export default class Cadastro extends Component {
   render() {
     return (
 
       <div>
-        <Header title= "Página de Login"/>
+        <Header title= "Página de Cadastro"/>
         <hr/>
         
       <Form>
         
         <FormGroup>
           <Label for="email"> Email </Label>
-          <Input type="text" id="email" placeholder="Informe o seu email:" />
-        </FormGroup>
-
-        <FormGroup>
-          <Label for="password"> Senha </Label>
-          <Input type="password" id="password" placeholder="Informe a sua senha:"/>
+          <Input type="text" id="email" placeholder="Informe seu email:" />
         </FormGroup>
 
         <FormGroup>
@@ -30,7 +25,7 @@ export default class Login extends Component {
 
         <FormGroup>
           <Label for="observacoes"> Observações </Label>
-          <Input type="text" id="observacoes" placeholder=":" />
+          <Input type="text" id="observacoes" placeholder="Digite seu texto" />
         </FormGroup>
 
         <Button color="primary" block> Entrar </Button>
