@@ -2,5 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin: 100px 300px;
+    padding: 100px;
+
+    background-color: rgb(183, 230, 236);
+    opacity: 15;
+    border-radius: 15px;
+
+}
+
+body {
+   background-color: rgb(186, 136, 233);
 }

@@ -8,9 +8,10 @@ export default class Cadastro extends Component {
     return (
 
       <div>
-        <Header title= "Página de Cadastro"/>
+        <Header title= "Cadastre-se"/>
         <hr/>
-        
+
+        <></>
       <Form>
         
         <FormGroup>
